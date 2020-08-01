@@ -1,0 +1,151 @@
+html,body{
+
+
+	margin:0px;
+	height: 100%;
+	background:url("clr1.jpg"); 
+	 background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+	transition: .3s;
+}
+
+
+#container{
+
+min-height: 100%;
+padding-bottom: 30px;
+
+}
+
+#content{
+ overflow: auto;
+ padding-bottom: 40px;
+padding-bottom: 40px;
+
+}
+#content:hover{
+	transition: .3s;
+}
+
+.h{
+		
+ 
+	font-family: 'Montserrat', sans-serif;
+
+
+      background-color: black;
+		color: white;
+		padding-left:20px;
+		transition: .2s;
+		padding-top:20px;
+       box-shadow: 0px 2px 5px #424949 ;
+       padding-bottom: 20px;
+}
+
+.h:hover{     
+        opacity: .1px;
+       box-shadow: 0px 4px 10px black;
+
+	    color:#DCDCDC;                 
+	    transition: .2s;    
+	    font-weight: bold;
+
+	}
+
+.msg{
+
+	font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-top: 5%;
+	position: relative;
+	top:relative;
+}
+
+
+.d{
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+   margin-top: -7%;
+   margin-left:45%;
+      padding:40px;
+      transition: .2s;
+
+border-radius: 5px;
+box-shadow: 0px 4px 30px black;
+
+
+   padding-top: 80px;
+   padding-bottom: 80px;
+   color: white;
+    background-color: black;
+
+}
+.u{
+
+	transition: .3s;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+   margin-top: -7%;
+   margin-left:63%;
+border-radius: 5px;
+padding:40px;
+   padding-top: 80px;
+      padding-bottom: 80px;
+box-shadow: 0px 4px 30px black;
+
+
+    background-color: black;
+    color: white;
+
+}
+.d:hover{
+
+transition: .3s;
+padding-top:10%;
+padding-left:5%;
+box-shadow: 0px 0px 0px black;
+
+
+
+}
+.u:hover{
+padding-top:10%;
+padding-left:5%;
+box-shadow: 0px 0px 0px black;
+
+transition: .3s;
+
+}
+.btn{
+    padding: 0px;
+	border:none;
+	margin-left: 10%;
+	margin-top: 14%;
+   position: absolute;
+   background-color: white;
+   
+    font-family: 'Kanit', sans-serif;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+
+	transition: .3s;
+}
+
+a:hover{                           
+	display: block;                
+	transition: .3s;               
+    font-size: 130%;               
+    font-weight: bold;
+    text-decoration: underline;             
+    	
+}
+
+
+
+
